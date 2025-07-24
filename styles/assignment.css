@@ -1,0 +1,92 @@
+
+
+.font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.header{
+  
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  margin: 30px 150px 0 150px;
+}
+
+nav a{
+  text-decoration: none;
+  
+}
+nav li{
+  list-style-type: none;
+}
+.navber{
+  display: flex;
+  margin-right: 48px;
+  align-items: center;
+  gap: 48px;
+}
+.cart{
+  display: flex;
+  
+}
+#home{
+  font-weight: 500;
+  color: #252432;
+}
+#shop{
+  color: #8987A1;
+}
+#about{
+  color: #8987A1;
+}
+#cd{
+  color: #000000;
+}
+.banner-title{
+  font-weight:700;
+  font-size: 60px;
+  color:#E95A08 ;
+  max-width:570px;
+  margin-bottom: 0;
+  padding: 0;
+
+ 
+  
+}
+#always{
+  color: #000000;
+}
+.banner-sub-title{
+  width: 570px;
+  font-size: 22px;
+ margin-top: 0;
+  
+}
+.light-gray{
+  color: rgba(0, 0, 0, 0.5);
+}
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  padding: 0;
+  margin: 190px 150px 0px 150px;
+  max-width: 1140px;
+  
+}
+.banner-img{
+  max-width: 570px;
+  
+}
+.banner-title h3, .banner-title p{
+  margin: 0;
+}
+.banner-title, .banner-img{
+  gap: 0;
+}
