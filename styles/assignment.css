@@ -1,5 +1,6 @@
 *{
-  /* overflow-x: hidden; */
+  
+
 }
 
 .font {
@@ -363,7 +364,9 @@ nav li{
   background-image: url(../assets/news-letter-bg.png);
   
   
-  margin: 0;
+ margin: 0;
+ padding: 0;
+  
   
 
   width: 100%;
@@ -486,7 +489,7 @@ a{
   }
 
   .plants {
-    margin: 20px 30px 10px 10px;
+    margin: 20px 0px 10px 10px;
     padding: 10px 20px 0 10px;
     height: auto;
     width: 100%;
@@ -520,7 +523,7 @@ a{
     height: auto;
   }
   .section-des{
-    width: 100%;
+    width: 90%;
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -532,7 +535,9 @@ a{
     gap: 20px;
     width: 100%;
   }
-
+ body{
+    overflow-x: hidden;
+  }
   .shop-img img {
     width: 100%;
   }
@@ -558,7 +563,7 @@ a{
   
 
   .card-1,
-  .card-2,
+  .card-2{ width: 360px; height: auto;}
   .card-3 {
     width: 100%;height: auto;
   }
@@ -571,6 +576,7 @@ a{
     
     
   }
+  
 
   .emaill {
     width: 100%;
@@ -605,7 +611,7 @@ a{
 
   .section-des,
   .section-description {
-    width: 100%;
+    width: 90%;
     height: auto;
     text-align:center;
   }
