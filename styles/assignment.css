@@ -235,5 +235,122 @@ nav li{
 .spin-infinite{
   animation: spin 2s linear infinite;
 }
-    
+.card-1{
+  background-image: url(../assets/deal-bloom.png);
+  background-repeat: no-repeat;
+  width: 365px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5) ;
+  background-blend-mode: darken;
+  margin-bottom: 10px;
   
+}
+.card-2{
+  background-image: url(../assets/deal-ana.png);
+  background-repeat: no-repeat;
+  width: 365px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5) ;
+  background-blend-mode: darken;
+}
+.card-3{
+  background-image: url(../assets/deal-zabo.png);
+  background-repeat: no-repeat;
+  width: 750px;
+  height: 400px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5) ;
+  background-blend-mode: darken;
+}
+.offer{
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+  /* -webkit-text-stroke: 1px black; */
+  text-shadow: 0 4px 4px #000000;
+  text-align: center;
+  padding-top: 40px;
+}
+.now{
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+   /* -webkit-text-stroke: 1px black;
+   text-shadow: 0 4px 4px #000000; */
+   text-align: center;
+   text-decoration: none;
+
+}
+.father-card{
+  display: flex;
+  max-width: 1140px;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 95px 0 95px;
+  gap: 20px;
+}
+.section-description{
+  width: 700px;
+  height: 54px;
+  text-align: center;
+ margin-top: 0;
+}
+.section-title-fcard{
+  font-size: 50px;
+  font-weight: 700;
+  color: #000000;
+  width: 1140px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.title-fcard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+#latest{
+  color: #E95A08;
+}
+#of{
+  padding-top: 150px;
+  color: rgb(255, 255, 255);
+  
+}
+.color-title{
+  font-size: 50px;
+  font-weight: 700;
+  color: #FFFFFF;
+
+    text-shadow: 0 4px 4px #000000;
+    margin-bottom: 10px;
+}
+.emaill{
+  width: 500px;
+  height: 45px;
+  margin-right: 0;
+  
+}
+#sub{
+  margin-left: 0px;
+  gap: 0;
+  border-left: none;
+}
+.clr-flr{
+  text-align: center;
+  margin-top: 80px;
+  padding-top: 130px;
+}
+.colorful-bg{
+  background-image: url(../assets/news-letter-bg.png);
+  width: 100%;
+  height: 533px;
+}
