@@ -1,4 +1,6 @@
-
+*{
+  /* overflow-x: hidden; */
+}
 
 .font {
   font-family: "Noto Serif", serif;
@@ -422,24 +424,29 @@ a{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+    margin: 10px 0 10px 30px;
   }
 
   .navber {
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 100px;
     margin-right: 0;
   }
 
   .mbl {
     display: none ;
   }
+  .car{
+    margin-top: 27px;
+  }
 
   .cart {
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 6px;
+    gap: 10px;
   }
 
   .navbar img {
@@ -450,24 +457,27 @@ a{
   
 
    .banner {
-    flex-direction: column;
-    margin: 40px 20px;
+    flex-direction: column-reverse;
+    margin: 10px 5px 10px 40px;
     align-items: flex-start;
     gap: 20px;
+    padding: 0 auto;
+    justify-content: flex-start;
   }
 
   .banner-img {
-    max-width: 100%;
+    max-width: 1000px;
     text-align: center;
   }
 
   .banner-img img {
-    width: 100%;
+    width: 500px;
   }
 
   .banner-title {
     font-size: 36px;
-    max-width: 100%;
+    max-width: 1000px;
+    text-align: left;
   }
 
   .banner-sub-title {
@@ -476,7 +486,19 @@ a{
   }
 
   .plants {
-    margin: 20px;
+    margin: 20px 30px 10px 10px;
+    padding: 10px 20px 0 10px;
+    height: auto;
+    width: 100%;
+  }
+  .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-title{
+    width: 100%;
     height: auto;
   }
 
@@ -484,11 +506,31 @@ a{
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
   }
+  .btn-primary{
+    width: 80%;
+    height: auto;
+    
+  }
+  .card-img{
+    width: 100%;
+    height: auto;
+  }
+  .card-container{
+    width: 100%;
+    height: auto;
+  }
+  .section-des{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
   .shop {
     flex-direction: column;
     margin: 40px 20px;
     gap: 20px;
+    width: 100%;
   }
 
   .shop-img img {
@@ -504,38 +546,52 @@ a{
     padding: 0;
     text-align: left;
     height: auto;
+    width: 100%;
   }
 
   .father-card {
     flex-direction: column;
     margin: 40px 20px;
     gap: 20px;
+    /* width: 100%; */
   }
+  
 
   .card-1,
   .card-2,
   .card-3 {
-    width: 100%;
+    width: 100%;height: auto;
   }
 
   .colorful-bg {
+    width: 97%;
+    padding-right: 20px;
+    margin-right: 20px;
     height: auto;
-    padding: 40px 20px;
+    
+    
   }
 
   .emaill {
     width: 100%;
+    height: auto;
   }
 
   .gapp {
-    flex-direction: column;
-    gap: 10px;
+    /* flex-direction: column; */
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding-bottom: 100px;
+  
   }
 
   .final-part {
     flex-direction: column;
     gap: 20px;
     padding: 40px 20px;
+    width: 100%;
     height: auto;
   }
 
@@ -543,13 +599,15 @@ a{
   .section-title-fcard {
     font-size: 32px;
     width: 100%;
-    justify-content: flex-start;
+    justify-content:center;
+    height: auto;
   }
 
   .section-des,
   .section-description {
     width: 100%;
-    text-align: left;
+    height: auto;
+    text-align:center;
   }
 }
 
