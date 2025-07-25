@@ -166,7 +166,74 @@ nav li{
   gap: 20px;
 }
 .plants{
-  width: 1140px;
+  max-width: 1140px;
   height: 1290px;
-  margin: 48px 150px 0 150px;
+  margin: 48px 150px 0 100px;
 }
+
+.shop-img img{
+  width: 100%;
+  display: block;
+  
+}
+.shop{
+  display: flex;
+  
+  max-width: 1140px;
+  
+  margin: 100px 100px 0 100px;
+  justify-content: space-between;
+  
+  
+}
+.shop-des{
+  /* text-align:justify; */
+  max-width: 540px;
+  height: 500px;
+  padding: 10px 2px 10px 10px;
+  margin-bottom: 0px;
+  
+  
+}
+.shop-title{
+  font-size: 50px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 2px;
+  margin-top: 15px;
+}
+.shop-point{
+  font-size: 22px;
+}
+.shop-img{
+  position: relative;
+  display: inline-block;
+}
+.badge{
+  position: absolute;
+  top: -100px;
+  left: 240px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: contain;
+
+ filter: drop-shadow(0 3px 12px rgb(51, 50, 50));
+ 
+  
+ 
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.spin-infinite{
+  animation: spin 2s linear infinite;
+}
+    
+  
